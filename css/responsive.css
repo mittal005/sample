@@ -1,0 +1,132 @@
+/* only small desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .top-nav-collapse .navbar-brand img {
+    width: 48%;
+  }
+}
+
+/* tablets */
+@media (max-width: 991px) {
+  
+
+.mar-top
+{
+margin-top:97px;
+}
+.footer ul
+{
+display:grid;
+}
+.split_item {
+    -webkit-columns: 50px 3; /* Chrome, Safari, Opera */
+    -moz-columns: 50px 3; /* Firefox */
+    columns: 25px 3;
+margin-left:-66px !important;
+}
+.split {
+    -webkit-columns: 50px 2; /* Chrome, Safari, Opera */
+    -moz-columns: 50px 2; /* Firefox */
+    columns: 100px 1;
+}
+.split1 {
+    -webkit-columns: 50px 2; /* Chrome, Safari, Opera */
+    -moz-columns: 50px 2; /* Firefox */
+    columns: 10px 4 !important;
+
+}
+#slid
+{
+display:none;
+}
+}
+
+/* only small tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+  .section-title {
+    font-size: 26px;
+    margin-bottom: 30px;
+  }
+  .top-nav-collapse .navbar-brand img {
+    width: 48%;
+  }
+  .mar-top
+{
+margin-top:97px;
+}
+.split_item {
+    -webkit-columns: 50px 3; /* Chrome, Safari, Opera */
+    -moz-columns: 50px 3; /* Firefox */
+    columns: 50px 3;
+margin-left:-66px !important;
+}
+.footer ul
+{
+display:grid;
+}
+.split {
+    -webkit-columns: 50px 2; /* Chrome, Safari, Opera */
+    -moz-columns: 50px 2; /* Firefox */
+    columns: 100px 1;
+}
+.split1 {
+    -webkit-columns: 50px 2; /* Chrome, Safari, Opera */
+    -moz-columns: 50px 2; /* Firefox */
+    columns: 10px 4;
+display:none;
+}
+#slid
+{
+display:none;
+}
+}
+
+/* mobile or only mobile */
+@media (max-width: 767px) {
+.nav
+{
+display:block;
+}
+.navbar-collapse
+{
+background:#ff5200;
+color:black;
+font-weight:bolder;
+font-size:20px;
+}
+.menu-btn
+{
+padding:16px 6px !important;
+}
+.mar-top
+{
+margin-top:97px;
+}
+.brd
+{
+margin-bottom:10px;
+}
+  .logo
+{
+margin-top:-127px;
+margin-left:74px;
+}
+.menu-ul
+{
+display:grid;
+}
+.footer ul
+{
+display:grid;
+}
+.split_item {
+    -webkit-columns: 50px 3; /* Chrome, Safari, Opera */
+    -moz-columns: 50px 3; /* Firefox */
+    columns: 50px 3;
+margin-left:-66px !important;
+}
+#slid
+{
+display:none;
+}
+
+}

@@ -1,0 +1,520 @@
+body
+{
+  font-family: 'Lato', sans-serif !important;
+}
+
+.pad_left_40
+{
+  padding-left:40px;
+}
+.padd
+{
+  padding-left: 38px;
+}
+.label_border
+{
+  border:1px solid #dbd1d0;
+  padding:10px !important;
+  font-size:18px !important;
+}
+.font-24
+{
+  font-size:24px !important;
+}
+#actionmenulist
+{
+font-size:12px;
+}
+#seo span
+{
+padding:5px;
+font-size:14px;
+}
+.snipp
+{
+  border:1px solid #dbd1d0;
+}
+#listview
+{
+  display:none;
+}
+
+#logo
+{
+  display:none;
+}
+[contentEditable=true]:empty:not(:focus):before{
+    content:attr(data-text)
+}
+.sidebar .nav-item .nav-link:active, .sidebar .nav-item .nav-link:focus, .sidebar .nav-item .nav-link:hover {
+    color:#fff !important;
+}
+.outer-w3-agile {
+    padding: 2em 1em;
+    -webkit-box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.25);
+    background: #fff;
+}
+.outer-w3-agile1 {
+    padding: 2em 1em;
+    right:20px;
+    -webkit-box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.25);
+    background: #fff;
+}
+.cke_textarea_inline{
+    border: 1px solid black;
+  }
+.dash_row
+{
+  margin-top: 22px !important;
+}
+.card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: #fff !important;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+.card-header a
+{
+  display: block;
+  position: relative;
+
+}
+.card-header  a[aria-expanded="false"]:before {
+   content: "\f078"; /* fa-chevron-down */
+  font-family: 'FontAwesome';
+  position: absolute;
+  right: 0;
+}
+.card-header a[aria-expanded="true"]:after {
+  right: 0;
+   position: absolute;
+  font-family: 'FontAwesome';
+  content: "\f077"; 
+} 
+
+
+
+.card-header1  a[aria-expanded="false"]:before {
+  padding-right:20px;
+   content: "\f078"; /* fa-chevron-down */
+  font-family: 'FontAwesome';
+  position: absolute;
+  right: 0;
+}
+.card-header1 a[aria-expanded="true"]:after {
+  padding-right:20px;
+  
+  right: 0;
+    font-family: 'FontAwesome';
+  content: "\f077"; 
+   position: absolute;
+
+} 
+
+
+.mar_bottom_20
+{
+  margin-bottom:20px;
+}
+h6
+{
+  padding: 12px 0px;
+}
+#activity span>a
+{
+  padding-left:65px;
+}
+textarea
+{
+  height:120px !important;
+}
+label
+{
+  padding-top:30px;
+}
+.button-top
+{
+  margin-top:30px !important;
+}
+#recentdraft label
+{
+  padding-left:65px;
+}
+.form-check
+{
+margin-top:20px;
+}
+
+.navbar
+{
+  position: fixed !important;
+    z-index: 999 !important;
+    width: 100%;
+    margin:auto;
+}
+.sidebar 
+{
+      margin-top: 55px !important;
+}
+.container-fluid
+{
+  margin-top:55px !important;
+}
+
+
+.table_btn
+{
+  margin-top:0px !important;
+}
+table
+{
+
+font-size:12px !important;
+height:50%;
+overflow-x:scroll;
+}
+.author_td
+{
+  width:423px !important;
+}
+.page_control
+{
+  width:86px !important;
+}
+
+.modal-header button
+{
+  margin-top: 0px !important;
+  padding:0px 10px !important;
+}
+.datepicker {
+            font-size: 12px;
+        }
+        /* solution 2: the original datepicker use 20px so replace with the following:*/
+.datepicker td, .datepicker th {
+            width: 10px;
+            height:5px;
+        }
+
+#filter button
+{
+  margin-top:0px !important;
+}
+.button
+{
+  margin-top:0px !important;
+}
+.title_input
+{
+  height:100px;
+  width:710px;
+}
+#y
+{
+  display:none;
+}
+.mar_top_20
+{
+  margin-top:20px !important;
+}
+.add_media
+{
+    padding:10px;
+  text-decoration: none;
+  cursor:pointer;
+}
+.mar_right_20
+{
+  margin-right:20px;
+}
+.mar_top_20
+{
+  margin-top: 20px;
+}
+#edit_pub
+{
+  display:none;
+}
+#status,#result
+{
+  font-weight: bolder;
+
+}
+#btn1
+{
+  display:none;
+}
+#visi
+{
+  display: none;
+}
+#format i
+{
+padding:0px 10px;
+}
+.pad
+{
+  padding:10px;
+}
+.pad i
+{
+  font-size:24px;
+}
+.sel
+{
+  border-radius:10px;
+  width:300px;
+}
+
+.tabinator {
+  background: #fff;
+ margin: -16px;
+}
+.tabinator h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.tabinator input[type=radio] {
+  display: none;
+}
+.tabinator label {
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 15px 25px;
+  color: #ccc;
+  margin-bottom: -1px;
+  margin-left: -1px;
+}
+.tabinator label:before {
+  content:'';
+  display:block;
+  width:100%;
+  height:15px;
+  background-color:#fff;
+  position:absolute;
+  bottom:-11px;
+  left:0;
+  z-index:10;  
+}
+.tabinator label:hover {
+  color: #888;
+  cursor: pointer;
+}
+.tabinator input:checked + label {
+  position: relative;
+  color: #000;
+  background: #fff;
+  border: 1px solid #bbb;
+  border-bottom: 1px solid #fff;
+  border-radius: 5px 5px 0 0;
+}
+.tabinator input:checked + label:after {
+  display: block;
+  content: '';
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  box-shadow: 0 0 15px #939393;
+}
+#content1, #content2 {
+  display: none;
+  
+}
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2 {
+  display: block;
+ }
+
+#ncategory
+{
+  display:none;
+}
+.modal-lg
+{
+  max-width:100% !important;
+  margin:auto !important;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+
+.modal-lg
+{
+  max-width:100% !important;
+  margin:auto !important;
+}
+
+}
+@media (max-width: 991px) {
+  
+.modal-lg
+{
+  max-width:100% !important;
+  margin:auto !important;
+}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .modal-lg
+{
+  max-width:100% !important;
+  margin:auto !important;
+}
+  
+}
+
+@media (max-width: 767px) {
+  .modal-lg
+{
+  max-width:100% !important;
+  margin:auto !important;
+}
+
+}
+@media (min-width:576px)
+{
+  .modal-lg
+  {
+    max-width:100% !important;
+    margin:auto !important;
+  }
+}
+#_container33 {
+    position:relative;
+    top:50px;
+    left:50px;
+    width: 90px;
+    cursor: help;
+}
+
+#__container34 {
+  margin-top:-25px;
+  margin-left:25px;
+  color: #555;
+  font-family: Arial;
+  font-size: 11px;
+  padding: 15px 10px;
+  text-align: center;
+  width: 200px;   
+  background: #FBF5E6;
+  border: 1px solid #CFB57C;
+  display: none;
+  opacity: 0;
+  pointer-events: none;
+  position: relative;
+  -webkit-transform: translateY(30px);
+     -moz-transform: translateY(30px);
+      -ms-transform: translateY(30px);
+       -o-transform: translateY(30px);
+          transform: translateY(30px);
+  -webkit-transition: all .15s ease-out;
+     -moz-transition: all .15s ease-out;
+      -ms-transition: all .15s ease-out;
+       -o-transition: all .15s ease-out;
+          transition: all .15s ease-out;
+  -webkit-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+     -moz-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+      -ms-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+       -o-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+          box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+  -webkit-border-radius: 3px; 
+    -moz-border-radius: 3px;
+     -ms-border-radius: 3px;
+      -o-border-radius: 3px;
+         border-radius: 3px;
+}
+
+#__container34:after
+{
+  position: absolute;
+  border-left: solid transparent 10px;
+  border-right: solid transparent 10px;
+  border-top: solid #FBF5E6 10px;
+  bottom: -10px;
+  content: '';
+  height: 0;
+  width: 0;
+  left: 50%;
+  margin-left: -50px;
+}
+
+#__container34:before
+{
+  position: absolute;
+  border-left: solid transparent 10px;
+  border-right: solid transparent 10px;
+  border-top: solid #CFB57C 10px;
+  bottom: -11px;
+  content: '';
+  height: 0;
+  width: 0;
+  left: 50%;
+  margin-left: -50px;
+}
+
+#__container33:hover + #__container34, #__container34:hover
+{
+ display: block;
+  opacity: 1;
+  pointer-events: auto;
+  -webkit-transform: translateY(0px);
+     -moz-transform: translateY(0px);
+      -ms-transform: translateY(0px);
+       -o-transform: translateY(0px);
+          transform: translateY(0px);
+} 
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
